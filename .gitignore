@@ -19,3 +19,5 @@ _site/
 .Rproj.user/
 *.Rproj
 .venv/
+
+/.quarto/
