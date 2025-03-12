@@ -1,0 +1,68 @@
+---
+title: Calculating averages
+engine: knitr
+format: live-html
+---
+
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
+## Exercise 1.1: Calculating the average
+
+Calculate the average of all of the integers from 1 to 10.
+
+```{webr}
+#| exercise: ex_1_r
+______(1:10)
+```
+
+```{webr}
+#| exercise: ex_1_r
+#| check: true
+if (identical(.result, mean(1:10))) {
+  list(correct = TRUE, message = "Nice work!")
+} else {
+  list(correct = FALSE, message = "That's incorrect, sorry.")
+}
+```
+
+## Exercise 1.2: Calculating the weighted average
+
+Calculate the weighted average of the following values:
+- Values: 10, 20, 30, 40, 50
+- Weights: 0.1, 0.2, 0.3, 0.25, 0.15
+
+```{webr}
+#| exercise: ex_2_r
+values <- c(10, 20, 30, 40, 50)
+weights <- c(0.1, 0.2, 0.3, 0.25, 0.15)
+______(values, weights)
+```
+```{webr}
+#| exercise: ex_2_r
+#| check: true
+if (identical(.result, weighted.mean(c(10, 20, 30, 40, 50), c(0.1, 0.2, 0.3, 0.25, 0.15)))) {
+  list(correct = TRUE, message = "Excellent! You've correctly calculated the weighted average.")
+} else {
+  list(correct = FALSE, message = "That's not correct. Remember to use the weighted.mean() function with both the values and weights vectors.")
+}
+```
+
+## Exercise 1.3: Finding the median value
+
+Find the median value of the following dataset with some outliers:
+`c(12, 15, 18, 19, 21, 22, 100, 120)`
+
+```{webr}
+#| exercise: ex_3_r
+data <- c(12, 15, 18, 19, 21, 22, 100, 120)
+______(data)
+```
+```{webr}
+#| exercise: ex_3_r
+#| check: true
+if (identical(.result, median(c(12, 15, 18, 19, 21, 22, 100, 120)))) {
+  list(correct = TRUE, message = "Great job! The median is less affected by outliers than the mean, making it a robust measure of central tendency.")
+} else {
+  list(correct = FALSE, message = "That's not right. Try using the median() function to find the middle value of the dataset.")
+}
+```

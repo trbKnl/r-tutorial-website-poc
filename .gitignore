@@ -1,0 +1,21 @@
+# Quarto generated files
+_site/
+*.nb.html
+*.log
+*.out
+*.aux
+*.toc
+*.snm
+*.nav
+*.vrb
+*.bbl
+*.blg
+*.gz
+.quarto
+
+# R and Python environment files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.venv/
