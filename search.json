@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "exercises/average.html",
+    "href": "exercises/average.html",
+    "title": "Calculating averages",
+    "section": "",
+    "text": "Calculate the average of all of the integers from 1 to 10."
+  },
+  {
+    "objectID": "exercises/average.html#exercise-1.1-calculating-the-average",
+    "href": "exercises/average.html#exercise-1.1-calculating-the-average",
+    "title": "Calculating averages",
+    "section": "",
+    "text": "Calculate the average of all of the integers from 1 to 10."
+  },
+  {
+    "objectID": "exercises/average.html#exercise-1.2-calculating-the-weighted-average",
+    "href": "exercises/average.html#exercise-1.2-calculating-the-weighted-average",
+    "title": "Calculating averages",
+    "section": "Exercise 1.2: Calculating the weighted average",
+    "text": "Exercise 1.2: Calculating the weighted average\nCalculate the weighted average of the following values: - Values: 10, 20, 30, 40, 50 - Weights: 0.1, 0.2, 0.3, 0.25, 0.15"
+  },
+  {
+    "objectID": "exercises/average.html#exercise-1.3-finding-the-median-value",
+    "href": "exercises/average.html#exercise-1.3-finding-the-median-value",
+    "title": "Calculating averages",
+    "section": "Exercise 1.3: Finding the median value",
+    "text": "Exercise 1.3: Finding the median value\nFind the median value of the following dataset with some outliers: c(12, 15, 18, 19, 21, 22, 100, 120)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
